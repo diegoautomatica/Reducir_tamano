@@ -7,7 +7,7 @@ import os
 class MyWindow(Gtk.Window):
 
     def __init__(self):
-        Gtk.Window.__init__(self, title="Programa Tonto para Sole")
+        Gtk.Window.__init__(self, title="Programa Tonto para probar Github")
         self.caja=Gtk.Box();
         self.caja.set_orientation(Gtk.Orientation.VERTICAL);
         self.add(self.caja)
